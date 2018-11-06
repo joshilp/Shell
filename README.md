@@ -29,6 +29,6 @@ Command `!n` runs command number `n`, such as `!11` will re-run the eleventh com
 
 ## Signal
 
-display the list of history commands when the user presses ctrl-c (which is the `SIGINT` signal)
+display the list of history commands when the user presses `ctrl-c` (which is the `SIGINT` signal)
 
-Note that when another child process is running, ctrl-c will likely cancel/kill that process. Therefore displaying the history with ctrl-c will only be tested when there are no child processes running.
+Note that when another child process is running, `ctrl-c` will likely cancel/kill that process. Therefore displaying the history with `ctrl-c` will only be tested when there are no child processes running.
